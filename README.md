@@ -139,4 +139,20 @@ Calculate Gini for split using weighted Gini score for each node for that split.
 Entropy is the measure of impurity or randomness in data.
 Entropy = -(p)log(q) - (q)log(p)
 
+## What are preferable library for plotting in python
+1.Matplotlib : 
+It is used far basic ploting like bar,pies,lines,scatter plots,etc.
+2. Seaborn:
+It build on top of matplotlib and pandas to ease data ploting.It is used for statistical visualization.
+3.Bokeh:
+Used for interactive visualization.In case your data is too complex and you haven't find any message in the data.Then use Bokeh to create interactive visualization that will allow your viewer to analyse your data.
+
+## Numpy and Scipy
+Numpy is a part of Scipy.
+Numpy defines array along with some basic numerical function like indexing , sorting and reshaping.
+Scipy implements computations such as numerical integration,optimization and machine learning using numpy's functionalities.
+
+## How can you handle duplicates value in dataset for a variable in python?
+use "duplicate()" function to find out duplicated values for a variable and delete them using "drop_duplicates()".
+
 
