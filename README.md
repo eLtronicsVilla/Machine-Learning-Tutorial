@@ -92,3 +92,51 @@ For all samples a single algorithm is used.and at the last you combine all the o
 In boosting is try to undersatnd the miss-classification which are there in previous model and try to learn those , and gives single model.so each model will learn and become better.   
 
 This will reduce the overfitting and variance of the model.
+
+## What is outlier and what will you do if you find?
+You can screen the outlier in different way, one of the way is box-plot.
+1.Box-plot uses the formula IQR ( Inter Quartile range)*1.5 +3rd quartile-1st quartile
+2.Probabilistic and Statistical model
+Using the property of different stastical model, such as normal distribution,exponential distribution. the way your data follows , you can see your model is following those distribution, if the case it flollowing at out of boundary the distribution, you can treat them as outlier.
+
+3.Linear model
+With the linear model you can try to see, In time series linear model if you are learning the data.whenever new outlier comes you will try to screen those.FOr logistic regression you can flag them, your model will learn which is the outlier and which is the not.
+
+4.Proximity based model
+It is like K-means clustering of the data, so those will fall outside of the cluster , they will form their own cluster and you can see that it has your classified versions of your outlier.
+
+Now , how to handle these classifier?
+If you have very high data and if you can drop those outlier, then you can do like that, you can use the percentile.
+Impute based on some buisiness rule.The data you can use , using those you can impute your outlier.So that you can go with the model creation.
+
+## What is Co-linearty and multi-colinearty?
+Colinearty occurs when two predictor variable in a multi-regression have same correlation.
+Multi-colinearty occurs when more than two predictor variable are inter-correlated.
+
+## What is EigenVector and EigenValue?
+Eigenvector of a square matrix A is a non-zero vector x , such that for some number (lambda) , we have Ax=(lambda)x
+Here (lambda) is eigenvalue.
+Eigenvectors are use to understand the linear transformation within your original square matrix.
+We calculate it for co-relation and co-variation matrix.
+This algorithm can be used in PCA and  factor analysis.It is used for dimention reduction.
+When you will apply linear transformation , this eigenvector will give you, in which directions the transformation will be apply.
+This is also used in compression as like image compression.
+
+## What is A/B testing?
+It is hypothetical statistical testing for randomize experiment with two variable A and B.
+how different model perform as compared to each other.Based on different testing A/B testing will use to identify which test is better.
+how different functionality are creating the better outcome and revanues.
+
+## What is cluster sampling ?
+It is a process of randomly selecting intact group within the defined population.
+In cluster sampling we are trying to sample in different clustering sample.
+It is a probability sample where each sample unit is collection or cluster of elements.
+
+## Running a binary classification tree is quite easy.How trees decide on which variable to split at the root node and suceed the child node.
+Gini-index and entropy can be used to decide which variable is best fit for splitting the decision tree at root node.
+Gini calculation on subnode - sum of square of probabily of success and failure.
+Calculate Gini for split using weighted Gini score for each node for that split.
+Entropy is the measure of impurity or randomness in data.
+Entropy = -(p)log(q) - (q)log(p)
+
+
