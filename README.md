@@ -31,13 +31,13 @@ Ex- classify a person as Man or Woman, predict the price of a stock over a perio
 Statistical error that causes a bias in the sampling portion of the experiment.It can produce inaccurate conclusion if the selection bias is not identified.     
 
 ## What is precision and recall?       
-It is the ratio of number of event that you can correctly recall to a number of all correct event.
-Precision is the ratio that the number of event you recall correctly to the total number of your recall.
-Number of event you can correct recall - True positive( they are correct and you recall them)
-Number of all correct event - True positive (They are correct and you recall them) + False negative (They are correct but you don't recall them)
-Number of all event you recall- True Positive(They are correct and you recall them)+false positive (They are not correct but you recall them)
-recall = true positive / (True positive + False negative)
-precision = true positive / ( true positive + false positive)     
+It is the ratio of number of event that you can correctly recall to a number of all correct event.     
+Precision is the ratio that the number of event you recall correctly to the total number of your recall.    
+Number of event you can correct recall - True positive( they are correct and you recall them)    
+Number of all correct event - True positive (They are correct and you recall them) + False negative (They are correct but you don't recall them)     
+Number of all event you recall- True Positive(They are correct and you recall them)+false positive (They are not correct but you recall them)     
+recall = true positive / (True positive + False negative)     
+precision = true positive / ( true positive + false positive)          
 
 ## What is confusion matrix?      
 Confusion matrix or a error matrix is a table which is used for summarizing the performance of a classification algorithm.
